@@ -1,0 +1,21 @@
+{
+  "name": "cscd322-blog-backend",
+  "version": "1.0.0",
+  "description": "school work",
+  "main": "server.js",
+  "repository": "https://github.com/boybenson/cscd322-blog-backend.git",
+  "author": "boybenson <ybenson96@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.7.0",
+    "mongoose": "^6.0.12"
+  }
+}
